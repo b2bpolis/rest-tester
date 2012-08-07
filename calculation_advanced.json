@@ -1,0 +1,53 @@
+{
+    "year_of_exploitation_period": 0,
+    "payment_form": [
+        105,
+        106,
+        107,
+        108,
+        109
+    ],
+    "policy_area": 29771,
+    "car_cost": 479000,
+    "is_aerographed": false,
+    "is_earlier_insurance": false,
+    "drivers_minimal_experience": 1,
+    "client_phone": null,
+    "contributory_scheme": 19,
+    "car_type": 1,
+    "is_new_car": true,
+    "is_credit": false,
+    "earlier_insurance_cars_count": 0,
+    "is_multidrive": true,
+    "is_legal_entity": false,
+    "insurance_duration": 82,
+    "is_armoured": false,
+    "client_name": null,
+    "car_mark": 396,
+    "drivers_minimal_age": 25,
+    "claim_form": 17,
+    "engine_power": 107,
+    "mileage": 0,
+    "engine_displacement": 1.6,
+    "exploitation_area": 30291,
+    "car_modification": 3080,
+    "insurable_risk": 29,
+    "is_deductible": false,
+    "car_currency": 23,
+    "driver_set": [
+        {
+            "expirience": 1,
+            "has_children": false,
+            "age": 25,
+            "gender": "M",
+            "is_married": false
+        }
+    ],
+    "client_email": null,
+    "car_model": 1510,
+    "is_right_wheel": false,
+    "is_under_warranty": true,
+    "target_of_using": 112,
+    "payment_type": 111,
+    "car_manufacturing_year": "2012"
+}
