@@ -20,5 +20,13 @@ python cmios_rest_tester.py [-e EMAIL] [-s SECRET] [-H HOST] [-p PREFIX] [-m {GE
 * -H HOST, --host HOST  адрес сайта для тестирования (необязательно)
 *  -p PREFIX, --prefix PREFIX префикс API url
 * -m {GET,POST,PUT}, --method {GET,POST,PUT} метод запроса
-* -j JSON, --json JSON  json afqk с параметрами запроса
-* URL - url для запроса
+* -j JSON, --json JSON  json файл с параметрами запроса
+* URL - url запроса
+
+Примеры
+-------
+
+* `python cmios_rest_tester.py car_mark` - список марок автомобилей
+* `python cmios_rest_tester.py calculation/list` - список расчётов
+* `python cmios_rest_tester.py --method POST --json calculation_simple.json calculation` - создание расчёта
+
