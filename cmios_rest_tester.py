@@ -3,6 +3,7 @@
 
 
 import argparse
+import locale
 import re
 import codecs
 
@@ -79,7 +80,8 @@ def create_url(args):
     return '%s/%s/%s' % (host, prefix, url)
 
 def pprint(str):
-    print json.dumps(json.loads(str), sort_keys=True, indent=4).decode('unicode-escape')
+    print json.dumps(json.loads(str), sort_keys=True, indent=4
+        ).decode('unicode-escape').encode(locale.getpreferredencoding())
 
 
 args = parser.parse_args()
