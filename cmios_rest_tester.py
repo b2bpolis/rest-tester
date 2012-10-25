@@ -51,7 +51,7 @@ def sign(username, time, secret):
 
 def get_token(username, secret):
     now = int(time.mktime(datetime.datetime.now().timetuple()))
-    signature = sign(username, now, args.secret)
+    signature = sign(username, now, secret)
     params = dict(
         username=username,
         time=now,
