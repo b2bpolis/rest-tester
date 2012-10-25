@@ -26,7 +26,7 @@ parser = argparse.ArgumentParser(description='Cmios REST API tester')
 parser.add_argument('-e', '--email', default='e@mail.ru',
                     help='user email')
 
-parser.add_argument('-s', '--secret', default='SecReT',
+parser.add_argument('-s', '--secret', default='SecRet',
                     help='authorization secret')
 
 parser.add_argument('-H', '--host', default='casco.cmios.ru',
