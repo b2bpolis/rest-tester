@@ -1,0 +1,10 @@
+{
+    "car_cost": 479000,
+    "car_mark": 396,
+    "car_model": 1510,
+    "car_modification": 3080,
+    "payment_form": [
+        105
+    ],
+    "is_calculate_gap": true
+}
